@@ -1,3 +1,25 @@
+---
+timestamp: 2022-06-09T14:13:34-06:00
+href: https://github.com/factorialsystem/deodorant.js
+title: Deodorant.JS - Optional strong typing in Javascript without precompiling!
+---
+
+**NOTE**: This is old code from 2016, written before Flow or Typescript were on my radar! I livestreamed the development of this library on Twitch.tv with an audience size of several tens of people.
+
+I had been writing a lot of Javascript for a browser game project and had come upon the dreaded null return value of doom one too many times.
+
+And so I paused development until I was able to get out version 1 of _Deodorant.JS_.
+
+I proceeded to write a little annotation DSL in pure Javascript to allow specifying the types of the function parameters and the return value.
+
+I was quite a fan of Coffeescript at the time and thought the Deodorant.JS annotations made the syntax look similar to Haskell.
+
+It was at that moment that I realized from first principles why type classes and generics are really useful.
+
+Begin the old README:
+
+---
+
 # Deodorant.js!
 
 Optional strong typing in Javascript without precompiling!
