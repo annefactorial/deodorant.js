@@ -105,7 +105,7 @@ describe('compound types of tuple, array, and object', function() {
     it('should allow objects with certain keys', function() {
         expect(checkSignatureForValues(
             [{pos: 'Position', size: 'Size', username: 'String', onlineUsers: ['String'], isLoggedIn: 'Boolean'}, 'Null'],
-            [{pos: [50, 50], size: {width: 200, height: 200}, username: 'dvcolgan', onlineUsers: ['david', 'colgan'], isLoggedIn: false}, null]
+            [{pos: [50, 50], size: {width: 200, height: 200}, username: 'annefactorial', onlineUsers: ['anne', 'factorial'], isLoggedIn: false}, null]
         )).to.not.throw();
     });
     it('should allow objects with all the same type of values', function() {

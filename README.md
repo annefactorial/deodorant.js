@@ -1,8 +1,4 @@
----
-timestamp: 2022-06-09T14:13:34-06:00
-href: https://github.com/factorialsystem/deodorant.js
-title: Deodorant.JS - Optional strong typing in Javascript without precompiling!
----
+# Deodorant.JS - Optional strong typing in Javascript without precompiling!
 
 **NOTE**: This is old code from 2016, written before Flow or Typescript were on my radar! I livestreamed the development of this library on Twitch.tv with an audience size of several tens of people.
 
